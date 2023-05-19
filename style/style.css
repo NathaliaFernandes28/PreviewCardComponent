@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+.section01 {
+  margin-left: 370px;
+  margin-right: 450px;
+  margin-top: 30px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-color: hsl(215, 32%, 27%);
+  padding: 10px;
+}
+.imgFirst {
+  width: 230px;
+  height: 230px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+.title {
+  color: hsl(0, 0%, 100%);
+  padding: 10px;
+  font-family: "Outfit", sans-serif;
+  font-size: 25px;
+}
+.subtitle {
+  color: hsl(215, 51%, 70%);
+  padding-bottom: 5px;
+  font-size: 12px;
+  width: 250px;
+  line-height: 25px;
+  font-family: "Outfit", sans-serif;
+}
+.section02 {
+  display: flex;
+  font-size: 14px;
+  gap: 25px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.ethereum {
+  display: flex;
+  gap: 7px;
+  margin-left: 10px;
+}
+.information {
+  color: hsl(178, 100%, 50%);
+  font-family: "Outfit", sans-serif;
+}
+.clock {
+  display: flex;
+  gap: 5px;
+}
+
+.days {
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+}
+.span {
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+}
+.paragraph {
+  color: hsl(0, 0%, 100%);
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 13px;
+  font-family: "Outfit", sans-serif;
+}
+
+.avatarImg {
+  width: 40px;
+  height: 40px;
+  border: 3px solid hsl(0, 0%, 100%);
+  border-radius: 59px;
+}
+.avatar {
+  display: flex;
+  padding: 10px;
+}
